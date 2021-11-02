@@ -25,7 +25,7 @@ function onFormSubmit(evt) {
     if (email.value === "" || message.value === "") {
     alert("Заполните пожалуйста все поля!")
     } else {
-    // console.log(JSON.parse(localStorage.getItem(FEEDBACK_STATE)))
+    console.log(JSON.parse(localStorage.getItem(FEEDBACK_STATE)))
         
     evt.currentTarget.reset();
     localStorage.removeItem(FEEDBACK_STATE);
